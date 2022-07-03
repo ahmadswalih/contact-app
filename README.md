@@ -8,6 +8,16 @@
 
 > &#34;Contacts&#34; is a user-contact saving application using ReactJs and Google Firebase.The application can perform all CRUD operations and also user can upload images related to that particular contact.
 
+###  [DEMO](src/App.js) 
+
+## Features
+- user can perform all CRUD (create,read,updated and delete) operations
+- upload images
+- adding Stars to contact
+- fully Responsive
+- Uses React-toasitfy
+
+
 ### 🏠 [Homepage](src/App.js)
 
 ## Install
