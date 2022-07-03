@@ -30,7 +30,7 @@ import PageNotFound from "./pages/PageNotFound";
 
 // context api stuffs
 //TODO: import reducers and contexts
-import reducer from "./context/Context";
+import reducer from "./context/reducer";
 import { ContactContext } from "./context/Context";
 import { SET_CONTACT, SET_LOADING } from "./context/action.types";
 

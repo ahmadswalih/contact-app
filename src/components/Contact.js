@@ -32,7 +32,7 @@ const Contact = ({ contact, contactKey }) => {
       .database()
       .ref(`/contacts/${contactKey}`)
       .remove()
-      .then(() => toast("Deleted Successfully", { type: "warning" }))
+      .then(() => toast("Contact Deleted ", { type: "error" }))
       .catch((err) => console.log(err));
   };
 
