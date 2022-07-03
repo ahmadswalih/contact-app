@@ -8,7 +8,7 @@
 
 > &#34;Contacts&#34; is a user-contact saving application using ReactJs and Google Firebase.The application can perform all CRUD operations and also user can upload images related to that particular contact.
 
-###  [DEMO](src/App.js) 
+###  [DEMO](https://neon-jalebi-d7babc.netlify.app/) 
 
 ## Features
 - user can perform all CRUD (create,read,updated and delete) operations
@@ -19,6 +19,26 @@
 
 
 ### 🏠 [Homepage](src/App.js)
+
+## Get Started
+
+After cloning the Repo, you have to create a .env file in the main directory and add your firebase configration 
+
+## .env variable names used
+
+```sh
+REACT_APP_Api_Key=""
+REACT_APP_Auth_Domain = ""
+REACT_APP_ProjectId = ""
+REACT_APP_STORAGE_Bucket = ""
+REACT_APP_SENDER_ID=""
+REACT_APP_APP_ID=""
+REACT_APP_Measurement_Id=""
+REACT_APP_DATABASE_URL=""
+```
+_Make sure to include the  databaseURl
+in the config file_
+
 
 ## Install
 
